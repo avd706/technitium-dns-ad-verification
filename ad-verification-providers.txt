@@ -1,66 +1,63 @@
-# Ad verification & measurement provider domains — Technitium DNS blocklist
-# Source: Reddit post — r/nextdns, "Ad verification providers to add to your blocklist"
-#        https://www.reddit.com/r/nextdns/s/RCvYNCTCSC
+# Ad verification / anti-adblock provider domains — Technitium DNS blocklist
+# Source: Reddit r/nextdns — "Ad verification providers to add to your blocklist"
+#         https://www.reddit.com/r/nextdns/comments/1y1u6af/ad_verification_providers_to_add_to_your_blocklist/
 #
-# NOTE: Automated extraction from the source Reddit post was blocked by Reddit's
-#       network policy (www.reddit.com, old.reddit.com, RSS, JSON API, mobile, mirrors,
-#       and CORS-proxy routes all blocked from this environment). The domains below are
-#       a curated set of well-known ad-verification / measurement / brand-safety vendor
-#       domains that fall under this category — common in r/nextdns community blocklists.
+# Verbatim domain list extracted from the post comments (users hthouzard and xxOrdulu52xx).
+# Entries shown as *.domain in the post are listed here as bare domains, which Technitium
+# blocks for the domain and all subdomains.
 #
-#       Paste the exact URLs from the Reddit post and add new domains as needed.
-#       Each line may carry an optional trailing comment.
-#
-# Technitium DNS format: one domain per line, optionally with a block IP prefix (e.g. 0.0.0.0).
+# Technitium DNS format: one domain per line. Import via Blocklist -> Add new blocklist.
 
-# --- DoubleVerify ---
-0.0.0.0 doubleverify.com
+# --- Ad verification / measurement vendors ---
+doubleverify.com
+adloox.com
+adsafeprotected.com
+integralads.com
+pixalate.com
+geoedge.com
+confiant.com
+confiant-integrations.net
+humansecurity.com
+fraudlogix.com
+impact.com
+trackdesk.com
+cleartrust.cc
+apphrbr.com
+clickcease.com
+cheq.ai
+addefend.com
+def-platform.com
+detectadblock.com
 
-# --- Integral Ad Science (IAS) ---
-0.0.0.0 adsafeprotected.com
+# --- Anti-adblock / ad recovery / paywall messaging ---
+btloader.com
+blockthrough.com
+pagefair.com
+pagefair.net
+uponit.com
+adback.co
+instartlogic.com
+fundingchoicesmessages.google.com
+contributor.google.com
+html-load.com
+html-load.cc
+css-load.com
+content-loader.com
+video-loads.com
+error-report.com
 
-# --- Oracle Moat ---
-0.0.0.0 moatads.com
+# --- Bot / anti-fraud detection ---
+perimeterx.com
+perimeterx.net
+px-cloud.net
 
-# --- comScore / Scorecard Research ---
-0.0.0.0 comscore.com
-0.0.0.0 scorecardresearch.com
-
-# --- Nielsen ---
-0.0.0.0 imrworldwide.com
-0.0.0.0 nielsen.com
-
-# --- Adloox ---
-0.0.0.0 adloox.com
-0.0.0.0 adlooxtracking.com
-
-# --- Forensiq ---
-0.0.0.0 forensiq.com
-
-# --- HUMAN Security (formerly White Ops) ---
-0.0.0.0 humansecurity.com
-0.0.0.0 whiteops.com
-
-# --- Confiant ---
-0.0.0.0 confiant.com
-
-# --- Adform ---
-0.0.0.0 adform.net
-
-# --- Media.net ---
-0.0.0.0 media.net
-
-# --- Google Adometry ---
-0.0.0.0 adometry.com
-
-# --- GeoEdge ---
-0.0.0.0 geoedge.be
-
-# --- Pixalate ---
-0.0.0.0 pixalate.net
-
-# --- AdSecure / clean.io ---
-0.0.0.0 clean.io
-
-# --- DoubleVerify CDN / tracking ---
-0.0.0.0 doubleverify.com
+# --- Ad platform / misc (from xxOrdulu52xx list) ---
+blissfullyzebra.com
+adshield-fallback-dev-wskxz.b-cdn.net
+adshield-fallback-staging-yp6cs.b-cdn.net
+getadmiral.com
+eventexistence.com
+merequartz.com
+goddesslamps.com
+scenesucceed.com
+whimsicalgrove.com
