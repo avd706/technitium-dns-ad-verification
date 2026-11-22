@@ -20,13 +20,24 @@ The domains were shared in the post comments by Reddit users **u/hthouzard** and
 
 ## How to import into Technitium DNS
 
-1. Open **Technitium DNS Manager**.
-2. Go to **Blocklist**.
-3. Click **Add new blocklist**.
-4. Paste the contents of `ad-verification-providers.txt` (one domain per line).
-5. Save and enable.
+**Option A — by URL (recommended, auto-updates):**
 
-Technitium accepts both bare domains (`doubleverify.com`) and hosts-style prefixed entries (`0.0.0.0 doubleverify.com`). This file uses bare domains.
+1. Open **Technitium DNS Manager**.
+2. Go to **Blocklist** → **Add new blocklist**.
+3. Enter this URL as the blocklist source:
+   ```
+   https://raw.githubusercontent.com/avd706/technitium-dns-ad-verification/main/ad-verification-providers.txt
+   ```
+4. Save and enable. Technitium downloads and re-parses it automatically on its refresh interval.
+
+**Option B — paste contents (manual):**
+
+1. Open **Technitium DNS Manager**.
+2. Go to **Blocklist** → **Add new blocklist**.
+3. Paste the contents of `ad-verification-providers.txt` (one domain per line).
+4. Save and enable.
+
+Technitium accepts both bare domains (`doubleverify.com`) and hosts-style prefixed entries (`0.0.0.0 doubleverify.com`). This file uses bare domains, which block the domain and all of its subdomains.
 
 ## Notes / cautions
 
