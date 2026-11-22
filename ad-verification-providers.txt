@@ -1,0 +1,66 @@
+# Ad verification & measurement provider domains — Technitium DNS blocklist
+# Source: Reddit post — r/nextdns, "Ad verification providers to add to your blocklist"
+#        https://www.reddit.com/r/nextdns/s/RCvYNCTCSC
+#
+# NOTE: Automated extraction from the source Reddit post was blocked by Reddit's
+#       network policy (www.reddit.com, old.reddit.com, RSS, JSON API, mobile, mirrors,
+#       and CORS-proxy routes all blocked from this environment). The domains below are
+#       a curated set of well-known ad-verification / measurement / brand-safety vendor
+#       domains that fall under this category — common in r/nextdns community blocklists.
+#
+#       Paste the exact URLs from the Reddit post and add new domains as needed.
+#       Each line may carry an optional trailing comment.
+#
+# Technitium DNS format: one domain per line, optionally with a block IP prefix (e.g. 0.0.0.0).
+
+# --- DoubleVerify ---
+0.0.0.0 doubleverify.com
+
+# --- Integral Ad Science (IAS) ---
+0.0.0.0 adsafeprotected.com
+
+# --- Oracle Moat ---
+0.0.0.0 moatads.com
+
+# --- comScore / Scorecard Research ---
+0.0.0.0 comscore.com
+0.0.0.0 scorecardresearch.com
+
+# --- Nielsen ---
+0.0.0.0 imrworldwide.com
+0.0.0.0 nielsen.com
+
+# --- Adloox ---
+0.0.0.0 adloox.com
+0.0.0.0 adlooxtracking.com
+
+# --- Forensiq ---
+0.0.0.0 forensiq.com
+
+# --- HUMAN Security (formerly White Ops) ---
+0.0.0.0 humansecurity.com
+0.0.0.0 whiteops.com
+
+# --- Confiant ---
+0.0.0.0 confiant.com
+
+# --- Adform ---
+0.0.0.0 adform.net
+
+# --- Media.net ---
+0.0.0.0 media.net
+
+# --- Google Adometry ---
+0.0.0.0 adometry.com
+
+# --- GeoEdge ---
+0.0.0.0 geoedge.be
+
+# --- Pixalate ---
+0.0.0.0 pixalate.net
+
+# --- AdSecure / clean.io ---
+0.0.0.0 clean.io
+
+# --- DoubleVerify CDN / tracking ---
+0.0.0.0 doubleverify.com
